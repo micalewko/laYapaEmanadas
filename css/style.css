@@ -1,0 +1,533 @@
+/* ==================
+- Imports
+================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+
+/* ==================
+- Estilos generales
+================== */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', 'Lora', Arial, sans-serif;
+    margin: 0;
+}
+
+body {
+    background-image: url('images/bg-4.jpg');
+}
+
+/* ==================
+- Container
+================== */
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+header {
+    background: #FFA333;
+    margin-top: 12px;
+    position: fixed;
+    width: -webkit-fill-available;
+}
+
+header nav div img.logo {   
+    width: 80px;
+}
+
+header nav ul.navbar-nav {
+    margin-left: auto;
+}
+
+header nav div div.navbar1 ul li a {
+    color: #383838;
+}
+
+header nav div div.navbar1 ul li.iconosRedes{
+    display: flex;
+    align-self: center;
+}
+
+header nav div div.navbar1 ul li.iconosRedes p{
+
+    padding: 5px;
+}
+header nav div div.navbar1 ul li a i.iconoInsta {
+    color: white;
+    font-size: 40px;
+
+
+}
+header nav div div.navbar1 ul li a i.iconoFb {
+    color: white;
+    font-size: 40px;
+}
+
+.fa-instagram-square:before {
+    content: "\e055";
+    padding-right: 0px;
+}
+.fa-facebook-square:before {
+    content: "\f082";
+}
+
+/* ===== Banner ===== */
+
+section.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/portada-02.png') ;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: inherit;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    /*background-position: 0%;
+    background-position-x: center;
+    background-position-y: top;*/
+}
+
+section.banner img {
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+
+/* ===== Menú ===== */
+
+section.tituloSeccion div.container div.comboTexto h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    font-family: 'Lato';
+    /*color:rgba(0, 0, 0, 0.4);*/
+    color:rgba(206, 206, 206, 0.8);
+}
+
+section.tituloSeccion div.container div.comboTexto h3::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 4px 10px;
+}
+
+section.tituloSeccion div.container div.comboTexto h1 {
+    font-weight: 700;
+    font-family: 'Lora';
+    font-style: italic;
+    color:#FFA333;
+}
+
+div.opcionesMenu ul li a{
+    color: #383838;
+}
+
+div.opcionesMenu ul li a:hover{
+    color: #FFA333;
+}
+
+section.opcionesmenu {
+    margin-top: 10px;
+}
+
+section.especialidades article.empanadas{
+    padding: 20px 10px;
+    
+}
+
+section.especialidades article div.empanada{
+    margin: 10px 10px 0px;
+    background-color: white;
+    border-radius: 10px;  
+    
+}
+
+section.especialidades article div.empFoto img{ 
+    width: 100%;
+    border-radius: 25px;
+    padding: 15px 15px 10px;  
+}
+
+section.especialidades article div.empanada div.empDetalle h3{
+    font-weight: 700;
+    font-family: 'Lora';
+    font-style: italic;
+    color:#ecbe77;;
+    text-align: center;
+    padding-top: 10px;
+}
+
+section.especialidades article div.empanada:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+section.especialidades article div.emp1foto img:hover {
+    transition: 0.2s;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    
+}
+
+
+/* efecto rotar
+
+section.especialidades article div.emp1foto img:hover {
+    transform: rotate(360deg); 
+    transition: 0.2s;
+}
+*/
+
+
+
+section.especialidades article div.col-7 {
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+}
+
+/* ===== Nosotros ===== */
+
+section.nosotros{
+    background-color: white;
+    width: 50%;
+    height: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 70px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+section.nosotros h3{
+    font-weight: 700;
+    font-family: 'Lora';
+    font-style: italic;
+    color:#FFA333;
+}
+
+/* ===== Ubicación ===== */
+
+section.ubicacion{
+    background-color: white;
+    width: 50%;
+    height: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 70px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+section.ubicacion div.ubicacion{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+section.ubicacion div.mapaUbicacion iframe{
+    width: -webkit-fill-available;
+}
+
+section.ubicacion div.ubicacionDetalle ul.list{
+    list-style-type: none;
+    margin: auto;
+    padding-right: 20px;
+    padding-top: 30px;
+    margin-left: -20px;
+}
+
+section.ubicacion div.ubicacionDetalle ul.list li img.logo{
+    width: 50%;
+    margin: 10px auto;
+    
+}
+
+section.ubicacion div.ubicacionDetalle ul li i.iconoUbicacion{
+    width: auto;
+    color: #FFA333;
+    font-size: 50px;
+    margin: 24px 0px 10px;
+}
+
+section.ubicacion div.ubicacionDetalle ul li h3{
+    font-size: 24px;
+    color: #383838;
+    margin-top: 10px;
+}
+
+section.ubicacion div.ubicacionDetalle ul li h4 {
+    font-size: 20px;
+    color:#383838;
+    margin-top: 10px;
+}
+
+section.ubicacion div.ubicacionDetalle ul hr{
+    width: 70%;
+    height: 2px;
+    color: #FFA333;
+    margin: 24px auto 0
+}
+
+section.ubicacion div.ubicacionDetalle ul li i.iconoHorario{
+    width: auto;
+    color: #FFA333;
+    font-size: 50px;
+    margin: 24px 0px 10px;
+}
+
+/* ===== Contacto ===== */
+
+section.contacto{
+    background-color: white;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 10px 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+section.contacto div.contacto{
+    display: flex;
+    align-items: center;
+}
+section.contacto div.contacto div.pedido{
+    border-right-style: solid;
+    border-color: #ffa33359;
+    border-width: 2px;
+}
+
+section.contacto div.contacto div i.iconoPedido{
+    width: auto;
+    color: #FFA333;
+    font-size: 50px;
+    margin: 24px 0px 10px;
+}
+
+section.contacto div.contacto div i.iconoWpp{
+    color: #06d755;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+section.contacto div.contacto div a i.iconoWpp:hover {
+    color: #008b35;
+    font-size: 65px;
+  }
+
+section.contacto div.contacto div.uberEats a img{
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  section.contacto div.contacto div.uberEats a img:hover{
+    box-shadow: 0 0 5px rgb(0 0 0 / 70%);
+    width: 65px;
+  }
+
+section.contacto div.contacto div.justEat a img{
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+section.contacto div.contacto div.justEat a img:hover{
+    box-shadow: 0 0 5px rgb(0 0 0 / 70%);
+    width: 65px;
+  }
+
+
+  footer {
+      text-align: center;
+      color: rgb(0 0 0 / 70% );
+
+  }
+
+@media (max-width: 767px) {
+
+    section.especialidades article.empanada1{
+        padding: 10px 14px;
+    }
+
+    section.especialidades article div.empFoto{
+        text-align: center;
+    }
+    section.especialidades article div.empFoto img{
+        width: 60%;
+    }
+
+    section.especialidades article div.col-7 {
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+    }
+
+   
+    
+
+}
+
+@media (max-width: 575px) {
+    
+    
+    section.especialidades article div.empanada{
+        margin: 0;          
+    }
+    
+    section.especialidades article div.n1{
+        text-align: center;
+        background-image: url(images/empanadas/carneSuave.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n2{
+        text-align: center;
+        background-image: url(images/empanadas/carneDulce.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n3{
+        text-align: center;
+        background-image: url(images/empanadas/carnePicante.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n4{
+        text-align: center;
+        background-image: url(images/empanadas/jamonYQueso.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n5{
+        text-align: center;
+        background-image: url(images/empanadas/pollo.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n6{
+        text-align: center;
+        background-image: url(images/empanadas/verdura.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    
+    section.especialidades article div.empFoto img{
+        display: none;
+    }
+
+    section.especialidades article div.empanada div.empDetalle h3{
+        text-align: left;
+    }
+
+    section.ubicacion{
+        background-color: white;
+        width: 95%;
+    }
+
+    section.ubicacion div.mapaUbicacion iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    section.ubicacion div.ubicacionDetalle ul.list {
+        list-style-type: none;
+        padding-right: 20px;
+        padding-top: 30px;
+        margin-left: -8px;
+        padding-bottom: 14px;
+    }
+
+    section.contacto{
+        background-color: white;
+        width: 95%;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px 10px 10px 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    section.contacto div.contacto div.pedido{
+        border-bottom-style: solid;
+        border-color: #FFA333;
+        border-width: 2px;
+        border-right-style: none;
+    }
+
+    section.contacto div.contacto {
+        display: flex;
+        align-items: center;
+        padding: 0px 10px 0px 0px;
+    }
+
+    section.contacto div.contacto div.pedido {
+        border-bottom-style: solid;
+        border-color: #ffa33359;
+        border-width: 2px;
+        border-right-style: none;
+        padding: 10px 10px 10px 10px;
+    }
+
+    section.contacto div.contacto div{
+        padding: 16px 10px 10px 10px;
+
+    }
+
+
+    section.nosotros{
+        background-color: white;
+        width: 95%;
+        height: auto;
+        margin-top: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 70px;
+        text-align: center;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    
+}
