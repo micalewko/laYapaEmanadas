@@ -16,9 +16,14 @@
 }
 
 body {
-    background-image: url('images/bg-2.jpg');
+    background-image: url('images/bg-4.jpg');
     background-size: 100vw;
 }
+
+strong{
+    font-weight: normal
+}
+
 
 /* ==================
 - Container
@@ -66,6 +71,7 @@ header nav ul.navbar-nav {
 
 header nav div div.navbar1 ul li a {
     color: #383838;
+    font-weight: 700;
 }
 
 header nav div div.navbar1 ul li.iconosRedes{
@@ -122,6 +128,13 @@ section.banner img {
 
 }
 
+/* ===== Nosotros ===== */
+
+section.nosotros div.nosotros h3.emp{
+    font-weight: 700;
+    font-family: 'Lora';
+    font-style: italic;
+}
 
 /* ===== Menú ===== */
 
@@ -131,27 +144,41 @@ section.tituloSeccion div.container div.comboTexto h3 {
     margin-top: 1rem;
     font-family: 'Lato';
     /*color:rgba(0, 0, 0, 0.4);*/
-    color:rgba(206, 206, 206, 0.8);
+    color:#ffa333;
+    text-align: center;
+}
+section.tituloSeccion div.container div.comboTexto h3::before {
+    content: "";
+    width: 20px;
+    height: 1px;
+    display: inline-block;
+    background: #ffa333;
+    margin: 5px 10px 5px 0px;
 }
 
 section.tituloSeccion div.container div.comboTexto h3::after {
     content: "";
-    width: 120px;
+    width: 20px;
     height: 1px;
     display: inline-block;
-    background: rgba(0, 0, 0, 0.2);
-    margin: 4px 10px;
+    background: #ffa333;
+    margin: 5px 0px 5px 10px;
 }
 
 section.tituloSeccion div.container div.comboTexto h1 {
     font-weight: 700;
     font-family: 'Lora';
     font-style: italic;
-    color:#FFA333;
+    color:#ffffff;
+    text-shadow: 1.5px 1.5px rgb(0 0 0 / 51%);
+}
+
+div.opcionesMenu{
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 div.opcionesMenu ul li a{
-    color: #383838;
+    color: #ffffff;
 }
 
 div.opcionesMenu ul li a:hover{
@@ -180,7 +207,16 @@ section.especialidades article div.empFoto img{
     padding: 15px 15px 10px;  
 }
 
-section.especialidades article div.empanada div.empDetalle h3{
+section.especialidades article div.empanada div.empDetalle h3 {
+    font-weight: 700;
+    font-family: 'Lora';
+    font-style: italic;
+    color:#ecbe77;;
+    text-align: center;
+    padding-top: 10px;
+}
+
+section.especialidades article div.empanada div.empDetalle h3 strong{
     font-weight: 700;
     font-family: 'Lora';
     font-style: italic;
@@ -377,7 +413,9 @@ section.contacto div.contacto div.justEat a img:hover{
   footer {
       text-align: center;
       color: rgb(0 0 0 / 70% );
-
+      background-color: #ffa333;
+      padding: 12px 8px 1px 8px;
+      font-size: small;
   }
 
 @media (max-width: 767px) {
