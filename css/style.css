@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url('images/bg-4.jpg');
+    background-image: url('../images/bg-4.jpg');
     background-size: 100vw;
 }
 
@@ -57,9 +57,8 @@ header {
     background: #FFA333;
     position: fixed; 
     width: -webkit-fill-available;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 40%);
 }
-
-
 
 header nav div img.logo {   
     width: 80px;
@@ -80,19 +79,25 @@ header nav div div.navbar1 ul li.iconosRedes{
 }
 
 header nav div div.navbar1 ul li.iconosRedes p{
-
     padding: 5px;
 }
+
 header nav div div.navbar1 ul li a i.iconoInsta {
     color: white;
     font-size: 40px;
-
-
+}
+header nav div div.navbar1 ul li a i.iconoInsta:hover{
+    opacity: 80%;
+    transition: 0.5s;
 }
 header nav div div.navbar1 ul li a i.iconoFb {
     color: white;
     font-size: 40px;
 }
+header nav div div.navbar1 ul li a i.iconoFb:hover{
+    opacity: 80%;
+    transition: 0.5s;
+} 
 
 .fa-instagram-square:before {
     content: "\e055";
@@ -107,7 +112,7 @@ header nav div div.navbar1 ul li a i.iconoFb {
 section.banner {
     width: 100%;
     height: 100vh;
-    background-image: url('images/portada-02.png') ;
+    background-image: url('../images/portada-02.png') ;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -436,10 +441,6 @@ section.contacto div.contacto div.justEat a img:hover{
         align-items: center;
         padding-right: 20px;
     }
-
-   
-    
-
 }
 
 @media (max-width: 575px) {
@@ -451,7 +452,7 @@ section.contacto div.contacto div.justEat a img:hover{
     
     section.especialidades article div.n1{
         text-align: center;
-        background-image: url(images/empanadas/carneSuave.jpg);
+        background-image: url(../images/empanadas/carneSuave.jpg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
@@ -461,7 +462,7 @@ section.contacto div.contacto div.justEat a img:hover{
 
     section.especialidades article div.n2{
         text-align: center;
-        background-image: url(images/empanadas/carneDulce.jpg);
+        background-image: url(../images/empanadas/carneDulce.jpg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
@@ -471,7 +472,7 @@ section.contacto div.contacto div.justEat a img:hover{
 
     section.especialidades article div.n3{
         text-align: center;
-        background-image: url(images/empanadas/carnePicante.jpg);
+        background-image: url(../images/empanadas/carnePicante.jpg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
@@ -481,7 +482,7 @@ section.contacto div.contacto div.justEat a img:hover{
 
     section.especialidades article div.n4{
         text-align: center;
-        background-image: url(images/empanadas/jamonYQueso.jpg);
+        background-image: url(../images/empanadas/jamonYQueso.jpg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
@@ -491,7 +492,7 @@ section.contacto div.contacto div.justEat a img:hover{
 
     section.especialidades article div.n5{
         text-align: center;
-        background-image: url(images/empanadas/pollo.jpg);
+        background-image: url(../images/empanadas/pollo.jpg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
@@ -501,14 +502,13 @@ section.contacto div.contacto div.justEat a img:hover{
 
     section.especialidades article div.n6{
         text-align: center;
-        background-image: url(images/empanadas/verdura.jpg);
+        background-image: url(../images/empanadas/verdura.jpg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-    
     
     section.especialidades article div.empFoto img{
         display: none;
