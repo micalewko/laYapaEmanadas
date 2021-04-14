@@ -173,7 +173,8 @@ section.tituloSeccion div.container div.comboTexto h3::after {
     margin: 5px 0px 5px 10px;
 }
 
-section.tituloSeccion div.container div.comboTexto h1 {
+section.tituloSeccion div.container div.comboTexto p {
+    font-size: 26px;
     font-weight: 700;
     font-family: 'Lora';
     font-style: italic;
