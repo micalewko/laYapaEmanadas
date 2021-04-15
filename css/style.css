@@ -115,7 +115,7 @@ header nav div div.navbar1 ul li a i.iconoFb:hover{
 section.banner {
     width: 100%;
     height: 100vh;
-    background-image: url('../images/portada-02.png') ;
+    background-image: url('../images/empanadas/portada.jpeg') ;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -234,15 +234,15 @@ section.especialidades article div.empanada div.empDetalle h3 strong{
     padding-top: 10px;
 }
 
-section.especialidades article div.empanada:hover{
+/*section.especialidades article div.empanada div.n1:hover{
     transition: 0.5s;
-    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    transform: scale(1.1)
 }
 section.especialidades article div.emp1foto img:hover {
     transition: 0.2s;
     box-shadow: 0 0 10px rgb(0 0 0 / 50%);
     
-}
+}*/
 
 
 /* efecto rotar
@@ -456,7 +456,7 @@ section.contacto div.contacto div.justEat a img:hover{
     
     section.especialidades article div.n1{
         text-align: center;
-        background-image: url(../images/empanadas/carneSuave.jpg);
+        background-image: url(../images/empanadas/ternera.jpeg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
@@ -466,7 +466,7 @@ section.contacto div.contacto div.justEat a img:hover{
 
     section.especialidades article div.n2{
         text-align: center;
-        background-image: url(../images/empanadas/carneDulce.jpg);
+        background-image: url(../images/empanadas/terneraConPasas.jpeg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
@@ -476,7 +476,7 @@ section.contacto div.contacto div.justEat a img:hover{
 
     section.especialidades article div.n3{
         text-align: center;
-        background-image: url(../images/empanadas/carnePicante.jpg);
+        background-image: url(../images/empanadas/ternera.jpeg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
@@ -486,7 +486,7 @@ section.contacto div.contacto div.justEat a img:hover{
 
     section.especialidades article div.n4{
         text-align: center;
-        background-image: url(../images/empanadas/jamonYQueso.jpg);
+        background-image: url(../images/empanadas/pollo.jpeg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
@@ -496,7 +496,7 @@ section.contacto div.contacto div.justEat a img:hover{
 
     section.especialidades article div.n5{
         text-align: center;
-        background-image: url(../images/empanadas/pollo.jpg);
+        background-image: url(../images/empanadas/pollo.jpeg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
@@ -506,13 +506,199 @@ section.contacto div.contacto div.justEat a img:hover{
 
     section.especialidades article div.n6{
         text-align: center;
-        background-image: url(../images/empanadas/verdura.jpg);
+        background-image: url(../images/empanadas/morcilla.jpeg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
+
+    section.especialidades article div.n7{
+        text-align: center;
+        background-image: url(../images/empanadas/atun.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n8{
+        text-align: center;
+        background-image: url(../images/empanadas/jamonYQueso.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n9{
+        text-align: center;
+        background-image: url(../images/empanadas/vegetalEspinaca.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n10{
+        text-align: center;
+        background-image: url(../images/empanadas/vegetalBrocoli.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n11{
+        text-align: center;
+        background-image: url(../images/empanadas/caprese.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n12{
+        text-align: center;
+        background-image: url(../images/empanadas/pimientoAsado.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n13{
+        text-align: center;
+        background-image: url(../images/empanadas/provolone.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n14{
+        text-align: center;
+        background-image: url(../images/empanadas/cebolla.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+    section.especialidades article div.n15{
+        text-align: center;
+        background-image: url(../images/empanadas/humita.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n16{
+        text-align: center;
+        background-image: url(../images/dulces/alfajorMaicena.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n17{
+        text-align: center;
+        background-image: url(../images/dulces/alfajoresMaicena.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n18{
+        text-align: center;
+        background-image: url(../images/dulces/canonRelleno.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+    section.especialidades article div.n19{
+        text-align: center;
+        background-image: url(../images/dulces/alfajorHavanna.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+    section.especialidades article div.n20{
+        text-align: center;
+        background-image: url(../images/dulces/alfajorDulceDeLeche.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+    section.especialidades article div.n21{
+        text-align: center;
+        background-image: url(../images/bebidas/vinoTrapiche.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+    section.especialidades article div.n22{
+        text-align: center;
+        background-image: url(../images/bebidas/vinoTorrontes.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n23{
+        text-align: center;
+        background-image: url(../images/bebidas/sidraMaelocDulce.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n24{
+        text-align: center;
+        background-image: url(../images/bebidas/sidraMaelocPera.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+
+    section.especialidades article div.n25{
+        text-align: center;
+        background-image: url(../images/bebidas/sidraMaelocMora.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 10px 0 0 10px;
+    }
+    
     
     section.especialidades article div.empFoto img{
         display: none;
