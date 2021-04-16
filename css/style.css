@@ -71,9 +71,13 @@ header nav ul.navbar-nav {
     margin-left: auto;
 }
 
-header nav div div.navbar1 ul li a {
+header nav div div.navbar1 ul.navbar-nav li a {
     color: #383838;
     font-weight: 700;
+}
+
+header nav div div.navbar1 ul.navbar-nav li a.nav-link:hover{
+    color: white;
 }
 
 header nav div div.navbar1 ul li.iconosRedes{
@@ -125,15 +129,30 @@ section.banner {
     display: inline-block;
     width: 100%;
     text-align: center;
-    /*background-position: 0%;
-    background-position-x: center;
-    background-position-y: top;*/
 }
 
 section.banner img {
     width: 100%;
     margin-top: 15px;
 
+}
+
+section.banner .title{
+    background-color: rgba(0, 0, 0, 0.6);
+	top: 79px;
+}
+section.banner .title h1{
+    font-weight: 700;
+    font-family: 'Lora';
+    color: white;
+    padding: 10px 10px 0;
+}
+section.banner .title h2{
+    font-weight: 300;
+    font-family: 'Lato';
+    color: white;
+    font-size: 16px;
+    padding: 10px;
 }
 
 /* ===== Nosotros ===== */
@@ -183,7 +202,9 @@ section.tituloSeccion div.container div.comboTexto p {
 }
 
 div.opcionesMenu{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
+	position: sticky;
+	top: 79px;
 }
 
 div.opcionesMenu ul li a{
@@ -233,27 +254,6 @@ section.especialidades article div.empanada div.empDetalle h3 strong{
     text-align: center;
     padding-top: 10px;
 }
-
-/*section.especialidades article div.empanada div.n1:hover{
-    transition: 0.5s;
-    transform: scale(1.1)
-}
-section.especialidades article div.emp1foto img:hover {
-    transition: 0.2s;
-    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
-    
-}*/
-
-
-/* efecto rotar
-
-section.especialidades article div.emp1foto img:hover {
-    transform: rotate(360deg); 
-    transition: 0.2s;
-}
-*/
-
-
 
 section.especialidades article div.col-7 {
     display: flex;
@@ -496,7 +496,7 @@ section.contacto div.contacto div.justEat a img:hover{
 
     section.especialidades article div.n5{
         text-align: center;
-        background-image: url(../images/empanadas/pollo.jpeg);
+        background-image: url(../images/empanadas/polloPicante.jpg);
         background-size: cover;
         background-position: center;
         background-position-x: center;
