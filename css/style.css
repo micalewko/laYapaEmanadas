@@ -18,7 +18,7 @@ html{
 }
 
 body {
-    background-image: url('../images/bg-4.jpg');
+    background-image: url('../images/background.jpg');
     background-size: 100vw;
     scroll-behavior: smooth;
 }
@@ -61,6 +61,7 @@ header {
     position: fixed; 
     width: -webkit-fill-available;
     box-shadow: 0 2px 6px 0 rgb(0 0 0 / 40%);
+    z-index: 1;
 }
 
 header nav div img.logo {   
@@ -127,14 +128,12 @@ section.banner {
     background-attachment: scroll;
     position: inherit;
     display: inline-block;
-    width: 100%;
     text-align: center;
 }
 
 section.banner img {
     width: 100%;
     margin-top: 15px;
-
 }
 
 section.banner .title{
@@ -170,7 +169,6 @@ section.tituloSeccion div.container div.comboTexto h3 {
     font-weight: 700;
     margin-top: 1rem;
     font-family: 'Lato';
-    /*color:rgba(0, 0, 0, 0.4);*/
     color:#ffa333;
     text-align: center;
 }
@@ -221,14 +219,12 @@ section.opcionesmenu {
 
 section.especialidades article.empanadas{
     padding: 20px 10px;
-    
 }
 
 section.especialidades article div.empanada{
     margin: 10px 10px 0px;
     background-color: white;
     border-radius: 10px;  
-    
 }
 
 section.especialidades article div.empFoto img{ 
@@ -318,7 +314,6 @@ section.ubicacion div.ubicacionDetalle ul.list{
 section.ubicacion div.ubicacionDetalle ul.list li img.logo{
     width: 50%;
     margin: 10px auto;
-    
 }
 
 section.ubicacion div.ubicacionDetalle ul li i.iconoUbicacion{
@@ -418,7 +413,6 @@ section.contacto div.contacto div.justEat a img:hover{
     width: 65px;
   }
 
-
   footer {
       text-align: center;
       color: rgb(0 0 0 / 70% );
@@ -448,7 +442,6 @@ section.contacto div.contacto div.justEat a img:hover{
 }
 
 @media (max-width: 575px) {
-    
     
     section.especialidades article div.empanada{
         margin: 0;          
@@ -533,7 +526,6 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-
     section.especialidades article div.n9{
         text-align: center;
         background-image: url(../images/empanadas/vegetalEspinaca.jpeg);
@@ -543,7 +535,6 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-
     section.especialidades article div.n10{
         text-align: center;
         background-image: url(../images/empanadas/vegetalBrocoli.jpeg);
@@ -553,7 +544,6 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-
     section.especialidades article div.n11{
         text-align: center;
         background-image: url(../images/empanadas/caprese.jpeg);
@@ -563,7 +553,6 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-
     section.especialidades article div.n12{
         text-align: center;
         background-image: url(../images/empanadas/pimientoAsado.jpeg);
@@ -573,7 +562,6 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-
     section.especialidades article div.n13{
         text-align: center;
         background-image: url(../images/empanadas/provolone.jpeg);
@@ -583,7 +571,6 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-
     section.especialidades article div.n14{
         text-align: center;
         background-image: url(../images/empanadas/cebolla.jpeg);
@@ -602,7 +589,6 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-
     section.especialidades article div.n16{
         text-align: center;
         background-image: url(../images/dulces/alfajorMaicena.jpeg);
@@ -612,7 +598,6 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-
     section.especialidades article div.n17{
         text-align: center;
         background-image: url(../images/dulces/alfajoresMaicena.jpeg);
@@ -622,7 +607,6 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-
     section.especialidades article div.n18{
         text-align: center;
         background-image: url(../images/dulces/canonRelleno.jpg);
@@ -668,7 +652,6 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-
     section.especialidades article div.n23{
         text-align: center;
         background-image: url(../images/bebidas/sidraMaelocDulce.jpeg);
@@ -678,7 +661,6 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-
     section.especialidades article div.n24{
         text-align: center;
         background-image: url(../images/bebidas/sidraMaelocPera.jpeg);
@@ -688,7 +670,6 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-y: center;
         border-radius: 10px 0 0 10px;
     }
-
     section.especialidades article div.n25{
         text-align: center;
         background-image: url(../images/bebidas/sidraMaelocMora.jpeg);
@@ -697,8 +678,7 @@ section.contacto div.contacto div.justEat a img:hover{
         background-position-x: center;
         background-position-y: center;
         border-radius: 10px 0 0 10px;
-    }
-    
+    } 
     
     section.especialidades article div.empFoto img{
         display: none;
@@ -761,9 +741,7 @@ section.contacto div.contacto div.justEat a img:hover{
 
     section.contacto div.contacto div{
         padding: 16px 10px 10px 10px;
-
     }
-
 
     section.nosotros{
         background-color: white;
@@ -778,5 +756,4 @@ section.contacto div.contacto div.justEat a img:hover{
         padding: 20px;
     }
 
-    
 }
